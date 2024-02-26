@@ -1,0 +1,194 @@
+.confirmed-cases-graph {
+  margin-left: 90px;
+  background: #331427;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.graph-charts-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.covid-confirmed {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff073a;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.covid-active {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007bff;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.covid-recovered {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #27a243;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.covid-tested {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9673b9;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.covid-deceased {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6c757d;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.active-cases-graph {
+  margin-left: 90px;
+  background: #132240;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.recovered-cases-graph {
+  margin-left: 90px;
+  background: #182829;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.deceased-cases-graph {
+  margin-left: 90px;
+  background: #1c1c2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tested-cases-graph {
+  margin-left: 90px;
+  background: #230f41;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.daily-trends-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+  margin-left: 100px;
+}
+
+.barchart-container {
+  align-self: center;
+}
+
+@media screen and (max-width: 575px) {
+  .daily-trends-heading {
+    align-self: center;
+    font-size: 16px;
+  }
+
+  .barchart-container {
+    align-self: center;
+  }
+
+  .confirmed-cases-graph {
+    margin-left: 20px;
+  }
+
+  .active-cases-graph {
+    margin-left: 20px;
+  }
+  .deceased-cases-graph {
+    margin-left: 20px;
+  }
+
+  .recovered-cases-graph {
+    margin-left: 20px;
+  }
+
+  .tested-cases-graph {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .barchart-container {
+    align-self: center;
+  }
+
+  .confirmed-cases-graph {
+    width: 800px;
+  }
+
+  .active-cases-graph {
+    width: 800px;
+  }
+  .deceased-cases-graph {
+    width: 800px;
+  }
+
+  .recovered-cases-graph {
+    width: 800px;
+  }
+
+  .tested-cases-graph {
+    width: 800px;
+  }
+}

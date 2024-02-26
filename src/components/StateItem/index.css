@@ -1,0 +1,114 @@
+.stat-item {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.state {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f1f5f9;
+  width: 150px;
+  margin-right: 30px;
+}
+
+.confirmed-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ff073a;
+  text-align: right;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.active-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #007bff;
+  text-align: right;
+  width: 80px;
+  margin-right: 60px;
+}
+
+.deceased-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #6c757d;
+  text-align: right;
+  width: 80px;
+  margin-right: 70px;
+}
+
+.recovered-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #28a745;
+  text-align: right;
+  width: 80px;
+  margin-right: 60px;
+}
+
+.population-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #6c757d;
+  text-align: right;
+  width: 80px;
+}
+
+@media screen and (max-width: 575px) {
+  .state {
+    margin-right: 10px;
+  }
+
+  .confirmed-text {
+    margin-right: 10px;
+  }
+
+  .active-text {
+    margin-right: 30px;
+  }
+
+  .deceased-text {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768) {
+  .state {
+    margin-right: 10px;
+  }
+
+  .confirmed-text {
+    margin-right: 10px;
+  }
+
+  .active-text {
+    margin-right: 30px;
+  }
+
+  .deceased-text {
+    margin-right: 40px;
+  }
+}

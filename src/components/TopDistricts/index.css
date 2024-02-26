@@ -1,0 +1,55 @@
+.dist-item {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  margin: 10px;
+}
+
+.cases-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+  margin-right: 6px;
+}
+
+.district-name {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+
+@media screen and (max-width: 575px) {
+  .cases-text {
+    font-size: 12px;
+  }
+
+  .dist-item {
+    font-size: 8px;
+  }
+
+  .dist-item {
+    width: 100px;
+  }
+}
+
+@media screen and ((min-width: 576px) and(max-width: 767px)) {
+  .cases-text {
+    font-size: 14px;
+  }
+
+  .dist-item {
+    font-size: 10px;
+  }
+
+  .dist-item {
+    width: 160px;
+  }
+}

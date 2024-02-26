@@ -1,0 +1,177 @@
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.confirmed {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ff073a;
+}
+
+.confirmed-cases {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ff073a;
+}
+
+.active {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #007bff;
+}
+
+.active-cases {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #007bff;
+}
+
+.recovered {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #28a745;
+}
+
+.recovered-cases {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #28a745;
+}
+
+.deceased {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6c757d;
+}
+
+.deceased-cases {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #6c757d;
+}
+
+@media screen and (max-width: 575px) {
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 260px;
+  }
+
+  .container {
+    width: 110px;
+    margin: 5px;
+  }
+
+  .active {
+    font-size: 12px;
+  }
+  .active-cases {
+    font-size: 16px;
+  }
+  .confirmed {
+    font-size: 12px;
+  }
+  .confirmed-cases {
+    font-size: 16px;
+  }
+  .recovered {
+    font-size: 12px;
+  }
+  .recovered-cases {
+    font-size: 16px;
+  }
+  .deceased {
+    font-size: 12px;
+  }
+
+  .deceased-cases {
+    font-size: 16px;
+  }
+}
+
+@media screen and ((min-width: 576px) and (max-width: 767px)) {
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 400px;
+  }
+
+  .container {
+    width: 120px;
+    margin: 5px;
+  }
+
+  .active {
+    font-size: 12px;
+  }
+  .active-cases {
+    font-size: 16px;
+  }
+  .confirmed {
+    font-size: 12px;
+  }
+  .confirmed-cases {
+    font-size: 16px;
+  }
+  .recovered {
+    font-size: 12px;
+  }
+  .recovered-cases {
+    font-size: 16px;
+  }
+  .deceased {
+    font-size: 12px;
+  }
+
+  .deceased-cases {
+    font-size: 16px;
+  }
+}

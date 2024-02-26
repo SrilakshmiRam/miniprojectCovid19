@@ -1,0 +1,56 @@
+.code-container {
+  background: #1cd4d429;
+  width: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.searchstate-item {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.searchvarient-icon {
+  color: #facc15;
+  height: 20px;
+  width: 20px;
+}
+
+.state-code {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #facc15;
+  margin-right: 6px;
+}
+
+.state-name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #64748b;
+}
+
+@media screen and (max-width: 575px) {
+  .searchstate-item {
+    width: 260px;
+  }
+}
+
+@media screen and ((min-width: 576px) and (max-width:767px)) {
+  .searchstate-item {
+    width: 400px;
+  }
+}

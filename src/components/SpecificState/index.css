@@ -1,0 +1,232 @@
+.specific-state-container {
+  min-height: 100vh;
+  background: #161625;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-districts-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 95px;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.bgColor-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  background: #331427;
+  margin-right: 10px;
+}
+
+.active-container {
+  background: #132240;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.recovered-container {
+  background: #182829;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.deceased-container {
+  background: #1c1c2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statename-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 60px;
+  margin-top: 15px;
+  width: 850px;
+}
+
+.specific-state-name {
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #0284c729;
+  border-radius: 32px;
+  max-width: 312px;
+  padding-left: 21px;
+  padding-right: 21px;
+  color: #0ea5e9;
+}
+
+.tested {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #94a3b8;
+}
+
+.top-districts {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 100px;
+  color: #ff073a;
+}
+
+.tested-count {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #94a3b8;
+}
+
+.updated-date {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 575px) {
+  .statename-container {
+    width: 260px;
+    margin-left: 20px;
+  }
+
+  .specific-state-name {
+    padding-left: 20px;
+  }
+
+  .updated-date {
+    padding-left: 20px;
+  }
+
+  .container {
+    width: 100px;
+  }
+
+  .bgColor-container {
+    width: 100px;
+  }
+
+  .deceased-container {
+    width: 100px;
+  }
+  .recovered-container {
+    width: 100px;
+  }
+  .active-container {
+    width: 100px;
+  }
+  .top-districts {
+    margin-left: 20px;
+  }
+
+  .top-districts-list {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+  }
+}
+
+@media screen and ((min-width: 576px) and (max-width: 767px)) {
+  .statename-container {
+    width: 500px;
+    margin-left: 20px;
+  }
+
+  .specific-state-name {
+    padding-left: 30px;
+  }
+
+  .updated-date {
+    padding-left: 30px;
+  }
+
+  .container {
+    width: 150px;
+  }
+
+  .bgColor-container {
+    width: 150px;
+  }
+
+  .deceased-container {
+    width: 150px;
+  }
+  .recovered-container {
+    width: 150px;
+  }
+  .active-container {
+    width: 150px;
+  }
+  .top-districts {
+    margin-left: 30px;
+  }
+
+  .top-districts-list {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+}

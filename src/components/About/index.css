@@ -1,0 +1,149 @@
+.failre-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cbd5e1;
+}
+
+.faqs-list {
+  list-style-type: none;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.covid-19India-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.failre-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.home-button {
+  width: Hug (88px);
+  height: Hug (48px);
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 12px;
+  gap: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #161625;
+  padding-bottom: 30px;
+}
+
+.about-heading {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f8fafc;
+  padding-left: 100px;
+}
+
+.updatedDate-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+  padding-left: 100px;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e2e8f0;
+  padding-left: 100px;
+}
+
+.description-footer {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+}
+
+@media screen and (max-width: 575px) {
+  .about-heading {
+    padding-left: 20px;
+    font-size: 30px;
+  }
+
+  .updatedDate-text {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .description {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .faqs-list {
+    padding-left: 20px;
+  }
+}
+
+@media screen and ((min-width: 576px) and (max-width:767px)) {
+  .about-heading {
+    padding-left: 30px;
+  }
+
+  .updatedDate-text {
+    padding-left: 30px;
+  }
+
+  .description {
+    padding-left: 30px;
+  }
+
+  .faqs-list {
+    padding-left: 30px;
+  }
+}

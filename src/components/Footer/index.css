@@ -1,0 +1,29 @@
+.icon-logo {
+  width: 45px;
+  height: 45px;
+  color: #cbd5e1;
+  margin-right: 12px;
+}
+
+.logo-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+}
